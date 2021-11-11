@@ -17,6 +17,7 @@ function App() {
     return (
         <div className="App">
             <section>
+                Big mistake was made here
                 <form>
                     <label htmlFor="name">Enter your name</label>
                     <input type="text" id="name" onChange={changeHandler} value={name}/>
