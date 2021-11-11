@@ -22,7 +22,7 @@ function App() {
                     this is too embarrassing for history
                     <label htmlFor="name">Enter your name</label>
                     <input type="text" id="name" onChange={changeHandler} value={name}/>
-                    <button onClick={(e) => onClickHandler(e)}>Submit</button>
+                    <button onClick={(e) => onClickHandler(e)}>OK</button>
                 </form>
 
                 {greeting && (
